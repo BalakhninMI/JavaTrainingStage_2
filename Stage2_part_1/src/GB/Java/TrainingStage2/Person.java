@@ -30,4 +30,7 @@ public class Person extends RunAndJump {
     public int getJump() {
         return height;
     }
+
+
+
 }
