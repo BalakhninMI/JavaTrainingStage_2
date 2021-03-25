@@ -2,14 +2,9 @@ import java.util.*;
 
 public class Wordsheet {
     List<String> list = new ArrayList<>();
-    String words;
 
     public void setList(List<String> list) {
         this.list = list;
-    }
-
-    public List<String> getList() {
-        return list;
     }
 
     public List<String> getUniqueWords() {
