@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<VBox alignment="center" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.Controller">
+    <TextArea fx:id="taMain" minWidth="200" VBox.vgrow="ALWAYS" />
+    <HBox>
+        <TextField fx:id="tfMessage" alignment="TOP_LEFT" minWidth="200.0" HBox.hgrow="ALWAYS" onAction="#sendMsg"/>
+        <Button fx:id="btnSend" maxWidth="75" minWidth="75" text="Отправить" onAction="#sendMsg"/>
+    </HBox>
+</VBox>
